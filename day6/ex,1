@@ -1,0 +1,45 @@
+# text = "pymaster india"  
+# print(text.upper())
+
+# text = " clean this " 
+# print(text.strip())
+
+# s = "yash8476"
+
+# print(s.isdigit())
+
+# s2 = "234432"
+
+# print(s2.isdigit())
+
+# text = "I love Java"
+
+# print(text.replace("Java","python"))
+
+# text = "apple banana mango" 
+
+# print(text.split())
+
+# words = ["Python", "is", "awesome"]
+
+# print(" ".join(words))  
+
+
+# text = "python"  
+
+# print(text.startswith("py"))
+# print(text.endswith("on"))
+
+
+# text = "42" 
+
+# print(text.rjust(5,"*"))
+
+# number = "42"
+# print(number.zfill(9))
+
+
+# name = "Yash"
+# score = 95
+
+# print(f"{name} scored {score} marks")

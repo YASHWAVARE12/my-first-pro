@@ -1,0 +1,14 @@
+
+name = input("inter your name : ")
+age = int(input("inter your age : "))
+
+print("your name is",name,"and your age is",age,"year old")
+
+yash = int(input("enter the marks of yash : "))
+ram = int(input("enter the marks of ram : "))
+vedant = int(input("enter the marks vedant : ")) 
+
+average = (yash + ram + vedant)/3
+
+print("average marks of all student is ",average) 
+    

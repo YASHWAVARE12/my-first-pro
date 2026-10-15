@@ -1,0 +1,17 @@
+Even_average  = 0
+count = 0 
+total = 0
+
+for i in range(1,6):
+    num = int(input("Enter the number"))
+    if num %2 == 0:
+        count+=1
+        total +=num
+        
+if count>0:
+    Even_average = total / count 
+    print(Even_average)
+else:
+    print("there is no even number present in given numbers")
+    
+    

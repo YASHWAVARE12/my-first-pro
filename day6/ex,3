@@ -1,0 +1,134 @@
+# sentence = "hello woeld"
+
+# print((sentence.count("a")) + (sentence.count("e")) + (sentence.count("i")) + (sentence.count("o")) + (sentence.count("u")))
+
+
+# s = "Hello World"
+
+# print(s.istitle())
+
+# s = r"C:\Users\Rajeev"
+
+# print(s)
+
+# s = "  hello   world  "
+
+# parts = s.split() 
+
+# result = " ".join(parts)
+
+# print(result)
+
+#  OR 
+
+# def remove_extra_spaces(s):
+#     return " ".join(s.split())
+
+# print(remove_extra_spaces("  hello   world  "))
+
+
+# text = "abc"
+# result = ""
+
+# for letter in text:
+#     new_letter = chr(ord(letter) + 1)
+#     result = result + new_letter
+
+# print(result)
+
+# text = "abc"
+
+# result = " "
+
+# for letter in text:
+#     new_latter = chr(ord(letter) + 1)
+#     result = result + new_latter
+
+# print(result)
+
+# text = "hello" 
+# seen = ""
+# for letter in text:
+#     if letter not in seen:
+#         print(letter,text.count(letter))
+#         seen = seen + letter
+
+
+
+# text = "yashyash"
+
+# seen = ""
+
+# for letter in text:
+#     if letter not in seen:
+#         print(text.count(letter))
+#         seen += letter
+
+# names = ["  RAJ  ", " Priya", "AMIT  "]
+# for name in names:
+#     print(name.strip().lower())
+
+
+# names = ["  RAJ  ", " Priya", "AMIT  "]
+# clean_names = []
+
+# for name in names:
+#     clean_name = name.strip().lower()
+#     clean_names.append(clean_name)
+
+# print(clean_name)
+# text = "This is his book. Is it his?"
+
+# start = 0
+
+# while True:
+#     position = text.find("is", start)
+
+#     if position == -1:
+#         break
+
+#     print(position)
+#     start = position + 1
+
+
+items = ["Apple", "Mango", "Banana"]
+prices = [30, 50, 25]
+
+print ("=======recipt=============")
+
+total = 0
+
+for item,price in zip(items,prices):
+    print(item.ljust(15),str(price).rjust(8))
+    total += price
+
+print("=========================")
+
+print("total".ljust(15),str(total).rjust(8))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

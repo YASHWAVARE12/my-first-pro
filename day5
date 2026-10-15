@@ -1,0 +1,25 @@
+# for i in range(1,1001):
+#     print(i**2,end=" ")
+
+# total = 0 
+
+# for i in range(1,1001):
+#     total +=i
+# print(f"sum of range ; {total}")
+
+# word = 'yash'
+
+# for i in range(len(word)-1,-1,-1):
+#     print(word[i], end=")
+# 
+
+vowel ="aeiou"
+word = "yashshivalingwavare"
+
+count = 0
+
+for cha in word:
+    if cha in vowel:
+        count += 1
+
+print(f"num of vowel in {word} is {count}")

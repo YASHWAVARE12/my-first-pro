@@ -1,0 +1,82 @@
+# s = ' hellow world '
+
+# print(s.strip())
+# print(s.lstrip())
+# print(s.rstrip())
+
+
+# s2 = "**hellow bhai**"
+# print(s2.strip("*"))
+
+# s3 = "..hey bhai.."
+# print(s3.strip("."))
+
+
+# # s = "yash is good person but lag at basic concept of life"
+
+# # print(s.find("good"))
+# # print(s.find("p",14))
+# # print(s.find("hang"))
+# # print(s.index("but"))
+# # print(s.count("is"))
+# # print("good".count("o"))
+
+# sentence = "yash is going to achive somthing big in next 6 months"
+
+# pos = sentence.find("6")
+# if pos!= 0:
+#     print(f"index postion found on {pos}")
+# else:
+#     print("index is invalid")
+
+
+# s = "one two three"
+
+# print(s.split())
+
+# s2 = "one,two,three,four"
+
+# print(s2.split(',',2))
+
+# s3 = "python is awesome"
+# print(s3.split())
+
+
+# WORDS = ['YASH','IS','MEN','OF','HIS','WORDS']
+
+# print(' '.join(WORDS))
+# print('-'.join(WORDS))
+
+# s = 'one two three'
+
+# WORDS =s.split()
+# upper_WORDS = [w.upper()for w in WORDS]
+# result = ' '.join(upper_WORDS)
+# print(result) 
+
+
+# s = "Python"
+# print(s.center(20,"--"))
+
+
+# for item,price in [("yash",89),("ram",98),("agustya",78)]:
+#     print(item.ljust(10) + "|" + str(price).rjust(10))
+
+s = "yashy"
+    
+def is_palindrome(s):
+    left = 0
+    right = len(s) - 1
+10
+    while left < right:
+        if s[left] != s[right]:
+            # What should you return here?
+         return False
+        left += 1
+        right -= 1
+    return True
+
+print(is_palindrome(s))
+    
+
+    # What should you return here?

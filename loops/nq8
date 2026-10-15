@@ -1,0 +1,58 @@
+# def greet(name, message="Hello"):
+#     return message + " " + name 
+    
+
+# print(greet("yash"))
+
+
+# def check_age(age):
+#     if age > 18:
+#         return "adult" 
+#     else:
+#         return"minor"
+
+# print(check_age(67))
+
+
+
+# addition = 0 
+# subsraction = 0 
+
+
+# def calculate(a, b):
+#     addition = a + b
+#     subsraction = a - b 
+#     return addition , subsraction 
+
+# print(calculate(44,23))
+    
+
+# def outer():
+
+#     def inner():
+#         return "Hello"
+
+#     return inner()
+
+# print(outer())
+
+
+# def introduce(name,age):
+#     return "my name is" + " " + name + " " + "and i am" + " " + str(age) + " " + "year old"
+
+# print(introduce("yash",18))
+
+fruits = ["apple", "banana", "mango", "orange"]
+
+fruits.pop(3) 
+
+print(fruits)
+
+
+
+
+
+
+
+
+

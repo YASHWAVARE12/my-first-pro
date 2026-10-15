@@ -1,0 +1,5 @@
+s =  "yash do give fuck what other thiink about him"
+print(s.replace("do","don't"))
+
+s =  "yash don't give fuck what other thiink about him"
+print(s.replace("don't"," "))

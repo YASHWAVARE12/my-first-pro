@@ -1,0 +1,47 @@
+# largest_odd = None
+
+# for i in range(1,6):
+#     number = int(input("enter numbers : "))
+#     if i%2 != 0 and largest_odd is None or number > largest_odd:
+#         largest_odd = number
+
+# print(largest_odd)
+
+# lowest_price = None
+
+# for i in range(1,6):
+#     price = int(input("enter thr prices : "))
+#     if lowest_price is None or price < lowest_price:
+#         lowest_price = price
+
+# print(lowest_price)
+
+
+
+# count = 0
+
+# for i in range(1,6):
+#     price  = int(input("numers : "))
+#     if price > 1000:
+#         count +=1
+# print(count)
+
+# total = 0 
+
+# for i in range(1,6):
+#     price = int(input("enter the prices of product : "))
+#     if price < 500:
+#         total += price 
+
+# print(total) 
+
+
+
+# count = 0 
+
+# for i in range(1,6):
+#     amount = int(input("enter your tansaction amuount : "))
+#     if amount > 0: 
+#         count+= 1
+# print(count)
+

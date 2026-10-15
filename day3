@@ -1,0 +1,32 @@
+#STRING MANUPULATION
+
+name = "yash"
+sarename = "wavare"
+
+print(name,""+sarename)
+
+#Accessing string
+
+name ="yashshivalingwavare"
+
+first_character = name[0]
+second_character = name[1]
+fifty_character = name[4]
+
+print(first_character,second_character,fifty_character)
+
+# String replacement
+
+# """"""
+# SyntaxError
+# """""" 
+
+# string.replace(old,new)
+
+
+sentance = "i love you renu" 
+
+new_sentance = sentance.replace( "renu","rutu") 
+
+print(new_sentance)
+ 

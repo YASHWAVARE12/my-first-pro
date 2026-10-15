@@ -1,0 +1,5 @@
+number = 10
+while number <= 20:
+    print(number**3,end=" ")
+    number +=1
+    

@@ -1,0 +1,533 @@
+# Python Practice — Today's Complete Revision
+
+## 1. Basic Variables
+
+```python
+name = "Yash"
+print(name)
+```
+
+```python
+a = 10
+b = 20
+z = a + b
+
+print(z)
+```
+
+## 2. Rectangle Area
+
+```python
+length = 10
+width = 5
+
+area = length * width
+
+print(area)
+```
+
+## 3. Functions
+
+### Simple Function
+
+```python
+def greet():
+    return "Hello"
+
+message = greet()
+
+print(message)
+```
+
+### Salary Function
+
+```python
+def calculate_salary(monthly_salary):
+    return monthly_salary * 12
+
+salary = calculate_salary(30000)
+
+print(salary)
+```
+
+### Even Checker
+
+```python
+def check_even(number):
+    if number % 2 == 0:
+        print("number is even")
+
+check_even(10)
+```
+
+---
+
+# FOR LOOPS
+
+## 4. Print 1–5
+
+```python
+for i in range(1, 6):
+    print(i)
+```
+
+## 5. Print 5–1
+
+```python
+for i in range(5, 0, -1):
+    print(i)
+```
+
+## 6. Print 10, 8, 6
+
+```python
+for i in range(10, 4, -2):
+    print(i)
+```
+
+## 7. Even Numbers 1–10
+
+```python
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+```
+
+## 8. Odd Numbers 1–10
+
+```python
+for i in range(1, 11):
+    if i % 2 != 0:
+        print(i)
+```
+
+## 9. Multiples of 5
+
+```python
+for i in range(5, 51):
+    if i % 5 == 0:
+        print(i)
+```
+
+### Shorter Version
+
+```python
+for i in range(5, 51, 5):
+    print(i)
+```
+
+## 10. Sum 1–10
+
+```python
+total = 0
+
+for i in range(1, 11):
+    total = total + i
+
+print(total)
+```
+
+## 11. Count Even Numbers 1–20
+
+```python
+count = 0
+
+for i in range(1, 21):
+    if i % 2 == 0:
+        count += 1
+
+print(count)
+```
+
+## 12. Multiplication Table
+
+```python
+number = int(input("Enter the number: "))
+
+for i in range(1, 11):
+    table = number * i
+    print(table)
+```
+
+---
+
+# WHILE LOOPS
+
+## 13. Print 1–5
+
+```python
+i = 1
+
+while i <= 5:
+    print(i)
+    i = i + 1
+```
+
+## 14. Even Numbers 2–10
+
+```python
+i = 2
+
+while i <= 10:
+    print(i)
+    i = i + 2
+```
+
+## 15. Odd Numbers 1–10
+
+```python
+i = 1
+
+while i <= 10:
+    if i % 2 != 0:
+        print(i)
+
+    i = i + 1
+```
+
+## 16. Countdown 10–1
+
+```python
+i = 11
+
+while i >= 2:
+    i = i - 1
+    print(i)
+```
+
+## 17. Sum 1–10
+
+```python
+i = 1
+total = 0
+
+while i <= 10:
+    total = total + i
+    i = i + 1
+
+print(total)
+```
+
+## 18. Sum Even Numbers 2–20
+
+```python
+i = 2
+total = 0
+
+while i <= 20:
+    if i % 2 == 0:
+        total = total + i
+
+    i = i + 1
+
+print(total)
+```
+
+## 19. Sum Odd Numbers 1–20
+
+```python
+i = 1
+total = 0
+
+while i <= 20:
+    if i % 2 != 0:
+        total = total + i
+
+    i = i + 1
+
+print(total)
+```
+
+## 20. Sum Numbers Divisible by 3
+
+```python
+i = 1
+total = 0
+
+while i <= 20:
+    if i % 3 == 0:
+        total = total + i
+
+    i = i + 1
+
+print(total)
+```
+
+## 21. Count Numbers Divisible by 5
+
+```python
+i = 1
+count = 0
+
+while i <= 50:
+    if i % 5 == 0:
+        count += 1
+
+    i = i + 1
+
+print(count)
+```
+
+## 22. Count Numbers Divisible by Both 3 and 5
+
+```python
+i = 1
+count = 0
+
+while i <= 30:
+    if i % 3 == 0 and i % 5 == 0:
+        count += 1
+
+    i = i + 1
+
+print(count)
+```
+
+## 23. Count Numbers Divisible by 3 OR 5
+
+```python
+i = 1
+count = 0
+
+while i <= 30:
+    if i % 3 == 0 or i % 5 == 0:
+        count += 1
+
+    i = i + 1
+
+print(count)
+```
+
+## 24. Count Numbers Divisible by 3 but NOT 5
+
+```python
+i = 1
+count = 0
+
+while i <= 50:
+    if i % 3 == 0 and i % 5 != 0:
+        count += 1
+
+    i = i + 1
+
+print(count)
+```
+
+## 25. Count Numbers Divisible by 3 OR 5, but NOT Both
+
+```python
+i = 1
+count = 0
+
+while i <= 50:
+    if (i % 3 == 0 or i % 5 == 0) and (i % 3 != 0 or i % 5 != 0):
+        count += 1
+
+    i = i + 1
+
+print(count)
+```
+
+## 26. Sum Numbers Divisible by 3 but NOT 5
+
+```python
+i = 1
+total = 0
+
+while i <= 50:
+    if i % 3 == 0 and i % 5 != 0:
+        total += i
+
+    i = i + 1
+
+print(total)
+```
+
+---
+
+# FACTORIAL
+
+## 27. Factorial of a Number
+
+```python
+number = int(input("Enter the number: "))
+
+result = 1
+i = number
+
+while i >= 1:
+    result = result * i
+    i = i - 1
+
+print(result)
+```
+
+Example:
+
+```text
+5! = 5 × 4 × 3 × 2 × 1 = 120
+```
+
+---
+
+# IMPORTANT PATTERNS TO REMEMBER
+
+## Sum
+
+```python
+total = 0
+
+total = total + i
+```
+
+or
+
+```python
+total += i
+```
+
+## Count
+
+```python
+count = 0
+
+count = count + 1
+```
+
+or
+
+```python
+count += 1
+```
+
+## Multiplication / Factorial
+
+```python
+result = 1
+
+result = result * i
+```
+
+or
+
+```python
+result *= i
+```
+
+## Increase i
+
+```python
+i = i + 1
+```
+
+## Decrease i
+
+```python
+i = i - 1
+```
+
+## Remainder
+
+```python
+i % 2
+```
+
+`%` remainder deta hai.
+
+For example:
+
+```text
+10 % 2 = 0
+11 % 2 = 1
+```
+
+## AND
+
+```python
+condition1 and condition2
+```
+
+Dono conditions `True` honi chahiye.
+
+## OR
+
+```python
+condition1 or condition2
+```
+
+Kam se kam ek condition `True` honi chahiye.
+
+## NOT EQUAL
+
+```python
+!=
+```
+
+Example:
+
+```python
+i % 3 != 0
+```
+
+Means: number 3 se divisible nahi hai.
+
+---
+
+# VERY IMPORTANT PYTHON RULES
+
+### `=` means value assign karna
+
+```python
+x = 10
+```
+
+### `==` means compare karna
+
+```python
+x == 10
+```
+
+### `:` block start karta hai
+
+```python
+if x > 5:
+```
+
+```python
+while x <= 10:
+```
+
+```python
+for i in range(5):
+```
+
+### Indentation important hai
+
+```python
+while i <= 10:
+    print(i)
+    i = i + 1
+```
+
+Indented lines loop ke andar hain.
+
+### Loop ke andar print
+
+```python
+while i <= 5:
+    print(i)
+```
+
+Har iteration mein print hoga.
+
+### Loop ke bahar print
+
+```python
+while i <= 5:
+    ...
+
+print(result)
+```
+
+Loop khatam hone ke baad final result print hoga.
+      

@@ -1,0 +1,184 @@
+a = 55
+b = "yash" 
+c = 8.8 
+
+print(type(a))
+print(type(b))
+print(type(c)) 
+
+a = 5
+b = 10
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
+
+
+name = "yash"
+print(name.upper()) 
+
+num = 9.5
+
+ print(int(num))
+
+Q1 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+a = 4
+b = 6
+
+print("Multiplication is:", a * b)
+  
+num = int(input("enter the number : ")) 
+
+if(num % 2 == 0):
+    print("number is even")
+else:
+    print("number is odd ")
+
+Q2 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User se age lo:
+👉 agar age ≥ 18 → "Eligible to vote"
+👉 warna → "Not eligible"
+ 
+age = int(input("enter your age : ")) 
+
+if (age > 18 ):
+    print("you can drive") 
+else:
+    print("you can't drive")
+
+Q3 -----------------------------------------------------------------------------------------------------
+
+User se 2 numbers lo:
+👉 bada number print karo
+
+
+num1 = int(input("inter 1st number : "))
+num2= int(input("inter 2nd number : ")) 
+
+if(num1 > num2):
+    print("number 1 is greter than number 2")
+
+else:
+    print("number 2 is greter than number 1")
+
+
+---------------------------------------------------------------------------------------------
+
+Q4
+
+User se ek number lo:
+👉 positive / negative / zero check karo
+
+num =int(input("enter the number : "))
+
+if(num > 0):
+    print("given number is positive")
+
+elif(num < 0):
+    print("given number is negative")
+
+    print("given number is zero")
+
+---------------------------------------------------------------------------------
+ 
+Q5 5.
+
+User se 5 subjects ke marks lo:
+👉 total + average print karo8==
+
+MATHEMATICS = int(input("ENTER THE MARKS OF MATHEMATICS : "))
+PHYSICS = int(input("ENTER TH MARKS OF PHYSICS : "))     
+CHIMESTRY = int(input("ENTER TH MARKS OF CHIMESTRY : "))   
+
+AVERAGE = (MATHEMATICS + PHYSICS + CHIMESTRY) / 3
+
+print(AVERAGE)
+
+
+------------------------------------------------------------------------------
+Q6
+User se length & width lo:
+👉 rectangle ka area print karo  zr
+
+length = int(input("enter length ; "))
+width = int(input("enter width ; "))
+
+rectangle = length*width
+print("area of rectanle" (rectangle))
+
+
+---------------------------------------------------------------------------
+Q7
+User se radius lo:
+👉 circle ka area print karo
+(π = 3.14 use karo)
+
+radius = int(input("enter the radius : ")) 
+
+area = 3.14 * radius * radius
+print(area)
+
+r = int(input("Radius: "))
+
+area = 3.14 * r * r
+print("Area:", area)  ((((print is used after 4 space in if elif and else condition in normL PRINT CONDITION THAT DONE NORMALY DOJNT USE 4 SPACE TP PRINT ANTTHING ))))
+
+num = int(input("Enter number: "))
+print("Cube:", num ** 3)
+
+name = input("Enter name: ")
+print("Length:", len(name)) 
+
+text = input("Enter text: ")
+print(text.upper())
+
+
+
+name = input("enter the number : ")
+if name[0].isupper():
+    print("first latter is capital ")
+
+else:
+    print("not capital")
+
+ch = input("Enter character: ").lower()
+
+if ch in "aeiou":
+    print("Vowel")
+else:
+    print("Consonant")
+
+
+num =input("enter a name : ")
+print("reverse : ",num[::-1])
+
+num = input("Enter number: ")
+
+if num == num[::-1]:
+    print("Palindrome")
+else:
+    print("Not palindrome")
+
+
+
+calculator 
+
+a = (input("enter a number : "))
+b = (input("enter b number "))
+op = input("enter operator sign : ")
+
+if (op == "+"):
+    print("addition : ",a + b)
+
+elif op =="-":
+    print("substraction : ",a - b)
+
+elif op =="*":
+    print("multipliction : ",a * b)
+
+elif op =="/":
+    print("division : ",a/b)
+else:
+    print("invalid thing")

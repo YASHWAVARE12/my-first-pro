@@ -1,0 +1,68 @@
+
+# i = 2
+
+# while i <= 10:
+#     print(i)
+#     i = i + 2                                    
+
+
+
+# smallest = None
+
+# for i in range(1, 6):
+#     number = int(input("Enter number: "))
+
+#     if smallest is None or number < smallest:
+#         smallest = number
+
+# print("Smallest =", smallest)
+
+# for i in range(1, 4):
+#     number = int(input("Enter number: "))
+#     print(number) 
+
+# total = 0
+
+# for i in range(1,6):
+#     number = int(input("enter num"))
+#     if number < 0:
+#         total +=number
+# print(total)
+
+
+
+# even_count = 0
+# odd_count = 0 
+
+# for i in range(1,6):
+#     number = int(input("enter the number : "))
+
+#     if number%2 ==0 : 
+#         even_count +=1 
+
+#     else: 
+#         number%2 != 0
+#         odd_count +=1
+
+# print(even_count)
+# print(odd_count)
+
+
+# even_total = 0
+# odd_total = 0
+# none = 0
+# for i in range(1,6):
+#     number = int(input("Enter the number : "))
+#     if number%2==0:
+#         even_total +=1
+#     elif number%2!=0:
+#         odd_total +=1
+#     else:
+#         number is none 
+# print(even_total) 
+# print(odd_total)
+
+
+
+
+

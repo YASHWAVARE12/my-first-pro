@@ -1,0 +1,86 @@
+# text = "PyMaster India" 
+
+# print(text.find("India"))
+# print(text.index("India"))
+
+
+# text = "banana"
+
+# print(text.count("an"))
+
+# print(text.count("a"))
+
+
+# text = "Rajeev,25,Varanasi,Python"
+
+# values = text.split(",")
+
+# for value in values:
+#     print(value,end = " ")
+
+# item = "Notebook"
+# quantity = 3
+# price = 45
+
+# print("item : {},quantity : {} ,price : {}," 
+#       .format(item,quantity,price))
+
+
+# text = "***hello world***"
+
+# print(text.strip("*"))
+
+# text = "12345"
+
+# print(text.isdigit())
+
+
+# text = "PyMaster India"
+# print(text.swapcase())
+
+# s = "my name is yash"  
+
+# print("yash" in s)
+
+# or 
+
+# s2 = "ram is sweetpy"
+
+# print(s2.find("ram"))
+# # 
+# def check_substring(s,sub):
+#     return s.find(sub) != -1
+
+# print(check_substring("yash wavare","yash"))
+
+
+# s = "a::b::c"
+
+# print(s.replace("::","|"))
+
+# s = "a::b::c"
+
+# parts = s.split("::")
+
+# result = "|".join(parts)
+# print(result)
+
+
+# s = "cat-dog-bird"
+
+# parts = (s.split("-"))
+
+# result = ",".join(parts)
+
+# print(result)
+
+# num = 1234567.7889  
+
+# print(f"{num:,.3f}")
+
+
+name = "Yash"
+age = 16
+city = "Pune"
+
+print(" My name is {},my age is {} and live in {}".format(name,age,city))

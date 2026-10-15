@@ -1,0 +1,251 @@
+# def calculate_final_price(price, discount):
+#     discount_amount = (price*discount)/100
+#     final_price = price - discount_amount
+#     return final_price
+
+# return(calculate_final_price(1000,20))
+
+#RESULT CHECKING
+
+
+# def check_result(mark):
+#     if mark >= 90: 
+#         return("excellent")
+#     elif 90 > mark >=40:
+#         return("PASS")
+
+#     else:
+#         return("FAIL")
+
+
+# print(check_result(88))
+
+# def check_loan_eligibility(age, salary):
+#     if age >= 18 and salary >= 25000:
+#         check_loan_eligibility = "eligibile"
+#         return check_loan_eligibility
+#     else:
+#         check_loan_eligibility = "not eligible"
+#         return check_loan_eligibility
+
+# print(check_loan_eligibility(23,25000))
+
+
+# def car_drive(age,license):
+#     if age>= 18 and license == "yes" :
+#         return "yes"
+#     elif age >= 18 and license == "no" :
+#         return "no"
+#     elif age < 18 and license == "no" :
+#         return "no"
+
+# print(car_drive(23,"no"))
+# print(car_drive(88,"yes"))
+# print(car_drive(16,"no"))
+
+
+# def check_delivery(amount, is_member):
+#     if amount >= 500 or is_member == "yes": 
+#         return "free dilevery available for you"
+
+#     else:
+#         return "free dilevery unavailable for you"
+
+# print(check_delivery(342,"yes"))
+
+
+# def check_exam_eligibility(attendance, assignment): 
+#     if attendance >= 75 and assignment == "submitted":
+#         return "elligible"
+#     else:
+#         return "not elligible"
+
+# print(check_exam_eligibility(94,"submitted"))
+
+# def cheak_number(number):
+#     if number>0 and number%2==0:
+#         return "positive_even"
+#     elif number>0 and number%2!=0:
+#         return "positive_odd"
+#     elif number<0 and number%2==0:
+#         return "negative_even"
+#     elif number<0 and number%2!=0:
+#         return "negative_odd"
+#     else:
+#         return "zero"
+
+# print(cheak_number(-45))
+
+
+# def even_cheak(numbers):
+#     total = 0
+
+#     for number in numbers:
+#       if number%2 ==0:
+#         total +=number
+
+#     return total
+      
+# print(even_cheak([20,21,22,23,24,25,26]))
+
+# def count_positive(numbers):
+#     total = 0
+
+#     for number in numbers:
+#        if number >0:
+#           total+=1
+
+#     return total
+
+# print(count_positive([20,21,22,23,24,25,26,27,28,29,30]))
+
+
+# def  find_smallest(numbers)
+#    largest_number = None
+
+#    for number in numbers:
+#        if largest_number is None or number > largest_number:
+#             largest_number = number
+#    return largest_number
+
+
+# print(find_largest([45,23,56,122]))
+    
+   
+
+# def find_smallest(numbers):
+#     smallest_number = None 
+
+#     for number in numbers:
+#         if smallest_number is None or number < smallest_number:
+#             smallest_number = number
+#     return smallest_number
+
+# print(find_smallest([23,24,75,11,564,64,33]))
+
+# def sum_positive(numbers):
+#     total = 0 
+
+#     for number in numbers:
+#         if number > 0:
+#             total +=number
+#     return total 
+
+
+# print(sum_positive([50,5,-56,5,50]))
+
+
+
+# def calculate_average(numbers):
+#     total = 0
+#     count = 0 
+#     for number in numbers:
+#         count+=1
+#         total += number
+        
+#     calculate_average = total/count
+#     return calculate_average
+
+
+# print(calculate_average([60,20,4546,345,3254,233,2323,23]))
+
+
+
+# def find_first_even(numbers):
+    
+#     for number i numbers:
+#         if number%2 == 0:
+#          return number
+# print(find_first_even([33,2,534,34,34242,322]))
+
+# def even_check(numbers):
+
+#     for number in numbers:
+#         if number%2 ==0:
+#             last_even = number
+#     return number
+      
+# print(even_check([23,22,23,24,25,26]))
+
+# def even_check(numbers):
+#     for number in numbers:
+#         if number % 2 == 0:
+#             first_even = number
+
+#     return first_even
+
+# print(even_check([23,22,23,24,25,26]))
+
+# numbers = [23, 22, 23, 24, 25, 26]
+
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         print(number)   
+
+
+
+
+# numbers = [20, 75, 40, 90, 51, 10]
+
+# count = 0
+
+# for number in numbers:
+#     if number > 50:
+#         count += 1
+
+# print(count)
+
+
+# numbers = [20,31,3,7]
+
+# total = 0
+
+# for number in numbers:
+#     if number%2 !=0:
+#         total+=number
+
+# print(total)
+
+# numbers = [45,23,54,23,43]
+
+# largest = None 
+
+# for number in numbers:
+#     if largest is None or number > largest:
+#      second_largest = largest
+#      largest = number 
+
+# print(second_largest)
+
+
+# numbers = [12, 45, 23, -7, 56, -2]
+
+
+# for number in numbers:
+#     if number<0:
+#         print(number)
+#         break
+
+
+# def find_first_multiple_of_5(numbers):
+#     for number in numbers:
+#          if number%5 == 0:
+#               return number
+
+
+# print(find_first_multiple_of_5([22,12,50,45,45]))
+    
+
+
+
+
+# def sum_odd(numbers):
+#     total_odd = 0
+#     for number in numbers:
+#         if number%2 != 0:
+#             total_odd +=number
+#     return total_odd
+
+
+# print(sum_odd([56,75,34,23,45,54])) 

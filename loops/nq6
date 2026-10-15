@@ -1,0 +1,120 @@
+# def check_number(number):
+#     if number > 0:
+#         return("positive")
+#     elif number < 0:
+#         return("negative")
+#     else:
+#         return("zero or invalid")
+
+# return(check_number(190))
+
+
+# def is_even(number):
+#     if number%2 == 0:
+#         return("even")
+#     else:
+#         return("odd")
+
+# print(is_even(8))
+
+
+# def find_number(a,b):
+#     if a > b:
+#         return(a)
+#     elif a < b:
+#         return(b)
+#     else:
+#         return("a = b")
+
+# print(find_number(34,54))
+
+
+# def area(l,b):
+#     area = l*b
+#     return(area)
+
+# print(area(4,6))
+
+
+
+# def yearly_salary(mounthly_salary):
+#     return mounthly_salary*12
+
+# print(yearly_salary(45000))
+
+
+# def calculalte(a,b,operation):
+#     if operation == "add":
+#         return a + b 
+#     elif operation == "sub":
+#         return a - b
+#     elif operation == "multiply":
+#         return a * b 
+
+# print(calculalte(45,45,"add"))
+
+# print(calculalte(56,456,"sub"))
+
+# print(calculalte(5,4,"multiply"))
+
+
+# def calculate(price,discount):
+#     discount_amount  = (price * discount)/100
+#     final_price = price - discount_amount
+#     return final_price
+
+# print(calculate(1000,20))
+  
+
+
+
+# def calculate(cost_price,selling_price):
+#     if selling_price > cost_price:
+#         profit = selling_price - cost_price
+#         return profit
+#     elif selling_price<cost_price:
+#         loss = selling_price - cost_price
+#         return loss
+
+# print(calculate(344,444))
+
+
+
+# def calculate_bill(units):
+#     if units >100:
+#         return units*7 
+#     elif units <100:
+#         return units*5
+
+# print(calculate_bill(300))
+
+
+
+# def celsius_to_fahrenheit(celsius):
+#     return (celsius * 9/5) + 32
+    
+# print(celsius_to_fahrenheit(0))
+
+
+# def calculate_bonus(salary, performance):
+#     if performance == "good":
+#         bonus = salary * 20 / 100
+#         final_salary = salary + bonus
+#         return final_salary
+        
+#     elif performance == "excellent":
+#         bonus = salary * 50 / 100
+#         final_salary = salary + bonus
+#         return final_salary
+    
+#     elif performance =="average":
+#         bonus = 0  
+#         final_salary = salary + bonus
+#         return final_salary 
+        
+
+
+# print(calculate_bonus(1000,"good"))
+# print(calculate_bonus(1000,"excellent"))
+# print(calculate_bonus(1000,"average"))
+    
